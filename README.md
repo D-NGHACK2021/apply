@@ -1,5 +1,9 @@
 # Quill
 
+This is a fork of [hackinit/apply](https://github.com/hackinit/apply) with changes merged in from upstream repo [techx/quill](https://github.com/techx/quill) up to commit [`3227d1f`](https://github.com/techx/quill/commit/3227d1f60409eb02d682e14dd63197cd3073f63a)
+
+For instructions on running this project with docker, please refer to [./INSTRUCTION.md](./INSTRUCTION.md).
+
 ## *Registration, for hackers!*
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code-of-conduct.md)
@@ -124,7 +128,6 @@ On the Settings tab, admins can easily control their event application timeline 
 | ---------------------------- | -------- |
 | [Node.js](http://nodejs.org) | `10.13+` |
 | [MongoDB](www.mongodb.com/)  | `4.0+`   |
-| gulp| `3.9.1`|
 
 Run the following commands to check the current installed versions:
 
@@ -174,8 +177,6 @@ npm install
 Ensure you have filled in the `.env` according to your setup, and then run the application:
 
 ```bash
-npm install --global gulp-cli
-npm install --save-dev gulp@3.9.1
 gulp server
 ```
 
@@ -320,6 +321,8 @@ Support this project with your organization. Your logo will show up here with a 
 
 # License
 Copyright (c) 2015-2016 Edwin Zhang (https://github.com/ehzhang). Released under AGPLv3. See [`LICENSE.txt`][license] for details.
+
+Copyright (c) 2019 THE Hack (https://github.com/hackinit/apply). Released under AGPLv3. See [`LICENSE.txt`](https://github.com/hackinit/apply/blob/master/LICENSE.txt) in that repo for details.
 
 [contribute]: https://github.com/techx/quill/blob/master/CONTRIBUTING.md
 [license]: https://github.com/techx/quill/blob/master/LICENSE

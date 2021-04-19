@@ -1,8 +1,8 @@
-var mongoose = require('mongoose'),
-  bcrypt = require('bcrypt-nodejs'),
-  validator = require('validator'),
-  jwt = require('jsonwebtoken');
-JWT_SECRET = process.env.JWT_SECRET;
+var mongoose   = require('mongoose'),
+    bcrypt     = require('bcrypt'),
+    validator  = require('validator'),
+    jwt        = require('jsonwebtoken');
+    JWT_SECRET = process.env.JWT_SECRET;
 
 var profile = {
 

@@ -41,7 +41,6 @@
     "dev": "nodemon app.js",
     "watch": "gulp server",
     "prod": "gulp build && node app.js",
-    "config": "cp .env.config .env",
     "test": "jest --forceExit",
     "test:accessibility": "pa11y-ci",
     "eslint": "./node_modules/.bin/eslint './**/*.js'"
