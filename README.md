@@ -1,4 +1,4 @@
-# Quill
+# apply (Quill)
 
 This is a fork of [hackinit/apply](https://github.com/hackinit/apply) with changes merged in from upstream repo [techx/quill](https://github.com/techx/quill) up to commit [`3227d1f`](https://github.com/techx/quill/commit/3227d1f60409eb02d682e14dd63197cd3073f63a)
 
